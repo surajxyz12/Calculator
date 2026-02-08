@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="calculator">
+
+  <input id="output" readonly>
+  <div class="buttons-box">
+
+
+    <button onClick="outputscreen('%')" class="buttons-opret" id="persent">%</button>
+    <button onClick="clearall('')" class="buttons-opret" id="AllClear">AC</button>
+    <button onClick="calculate('')" class="buttons-opret" id="equal">=</button>
+    <button onClick="clearlast('X')" class="buttons-opret" id="clear"  style=" border-radius: 100px; background-color: blueviolet; ">X</button>
+
+    <button onClick="outputscreen('7')" class="buttons" id="seven">7</button>
+    <button onClick="outputscreen('8')" class="buttons" id="eight">8</button>
+    <button onClick="outputscreen('9')" class="buttons" id="nine">9</button>
+    <button onClick="outputscreen('+')" class="buttons-opret" id="plus">+</button>
+
+    <button onClick="outputscreen('4')" class="buttons" id="four">4</button>
+    <button onClick="outputscreen('5')" class="buttons" id="five">5</button>
+    <button onClick="outputscreen('6')" class="buttons" id="six">6</button>
+    <button onClick="outputscreen('-')" class="buttons-opret" id="minus">-</button>
+
+    <button onClick="outputscreen('1')" class="buttons" id="one">1</button>
+    <button onClick="outputscreen('2')" class="buttons" id="two">2</button>
+    <button onClick="outputscreen('3')" class="buttons" id="three">3</button>
+    <button onClick="outputscreen('*')" class="buttons-opret" id="mlutiply">×</button>
+
+    <button onClick="outputscreen('0')" class="buttons" id="zero">0</button>
+    <button onClick="outputscreen('.')" class="buttons" id="dought">.</button>
+    <button onClick="outputscreen('00')" class="buttons" id="Dzero">00</button>
+    <button onClick="outputscreen('/')" class="buttons-opret" id="divide">÷</button>
+
+    
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
